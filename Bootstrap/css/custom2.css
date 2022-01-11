@@ -2,3 +2,12 @@ body {
     background-image: url('../images/pattern.png');
     background-repeat: repeat;
 }
+
+.opacity {
+    filter: brightness(50%);
+}
+
+
+/* .carousel-item {
+    height: 590px;
+} */
