@@ -19,7 +19,7 @@
     <header class="color sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #a593c2;">
             <div class="container">
-                <img src="images/bethanylogo.png" alt="" width="30px" class="ms-4">
+                <img src="images/pie.png" alt="" width="30px" class="ms-4">
                 <a class="navbar-brand" href="#"><strong>Bethany's</strong> Pie Shop</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
@@ -30,7 +30,7 @@
                     <ul class="navbar-nav">
 
                         <!-- Home está activo -->
-                        <li><a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                        <li><a class="nav-link" href="index.html" id="navbarDarkDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Home
                             </a></li>
@@ -152,8 +152,7 @@
 
                         <div class="col-md-12">
                             <label for="inputEmail4" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="you@example.com"
-                                required>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="you@example.com" required>
                             <!-- // validation -->
                             <div class="invalid-feedback">
                                 Please enter email.
@@ -354,25 +353,10 @@
                             </div>
                     </aside>
                 </div>
-
-
-
-
-
             </div>
-
-
-
-
-
         </div>
         <!-- row ppal / -->
         <!-- form / -->
-
-
-
-
-        </div>
         <!-- container / -->
     </main>
     <!-- main / -->
@@ -387,24 +371,7 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js "
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF "
         crossorigin="anonymous "></script> -->
-    <script>
-        (function () {
-            'use strict';
-            window.addEventListener('load', function () {
-                var forms = document.getElementsByClassName('needs-validation');
-                var validation = Array.prototype.filter.call(forms, function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (form.checkValidity() === false) {
-                            event.preventDefault();
-                            event.stopPropagation();
-                        }
-                        form.classList.add('was-validated');
-                    }, false);
-                });
-            }, false);
-        })();
-    </script>
-
+    <script src="js/form-validation.js"></script>
 </body>
 
 </html>
