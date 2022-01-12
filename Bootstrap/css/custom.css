@@ -3,3 +3,7 @@ body {
     background-image: url('../images/pattern.png');
     background-repeat: repeat;
 }
+
+.offcanvas-start {
+    width: 600px !important;
+}
