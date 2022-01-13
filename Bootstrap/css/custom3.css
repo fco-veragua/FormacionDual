@@ -4,3 +4,12 @@ body {
     background-repeat: repeat;
     font-family: 'Lobster' !important;
 }
+
+/* .card-body{
+    background-image: url('../images/pattern.png');
+    background-repeat: repeat;
+} */
+
+.img-fluid:hover {
+    filter: brightness(50%);
+}
