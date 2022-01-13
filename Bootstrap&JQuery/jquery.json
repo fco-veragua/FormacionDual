@@ -1,0 +1,54 @@
+{
+    "eventos": [{
+            "id": "1",
+            "nombre": "Day of cookies",
+            "description": "Cookie cooking days",
+            "img": "images/cookie.jpg",
+            "dia": "20",
+            "tipo": "Twitter"
+        },
+        {
+            "id": "2",
+            "nombre": "Day of Brownie",
+            "description": "Brownie cooking days",
+            "img": "images/brownie.jpg",
+            "dia": "22",
+            "tipo": "Instagram"
+        },
+        {
+            "id": "3",
+            "nombre": "Day of Cake",
+            "description": "Cake cooking days",
+            "img": "images/cake.jpg",
+            "dia": "13",
+            "tipo": "FaceBook"
+        },
+        {
+            "id": "4",
+            "nombre": "Day of Bread",
+            "description": "Bread cooking days",
+            "img": "images/bread.jpg",
+            "dia": "12",
+            "tipo": "Twitter"
+        },
+        {
+            "id": "5",
+            "nombre": "Day of Ice Cream",
+            "description": "Ice Cream cooking days",
+            "img": "images/icecream.jpg",
+            "dia": "4",
+            "tipo": "Instagram"
+        },
+        {
+            "id": "6",
+            "nombre": "Day of puff pastry",
+            "description": "Puff pastry cooking days",
+            "img": "images/puffpastry.jpg",
+            "dia": "30",
+            "tipo": "FaceBook"
+        }
+
+
+    ]
+
+}

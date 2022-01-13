@@ -31,8 +31,6 @@
                 if (!form.checkValidity()) {
                     event.preventDefault()
                     event.stopPropagation()
-                } else {
-                    open('done.html', 'Done');
                 }
 
                 form.classList.add('was-validated')

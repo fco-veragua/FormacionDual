@@ -1,0 +1,19 @@
+body {
+    padding-bottom: 3rem;
+    background-image: url('../images/pattern.png');
+    background-repeat: repeat;
+}
+
+.opacity {
+    filter: brightness(50%);
+}
+
+
+/* .carousel-item {
+    height: 590px;
+} */
+
+.col {
+    width: 150px;
+    height: 150px;
+}
