@@ -1,0 +1,58 @@
+# Acceder mediante JS a elementos del HTML a través de su id
+document.getElementById('idElemento);
+
+# FUNCIONES JS
+$(function() {
+    console.log('Hello World')
+});
+
+// SELECTORES // 
+# Cuántos div hay
+$('div').length
+
+# Muestra el texto del h2(primero)
+$('h2').text();
+
+# Cambia contenido
+$('h2').text('Hola Mundo');
+
+
+$('#identificadorElemento');
+
+$('.nombreClase');
+
+$('div:first-child');
+
+# Enlaces donde su atributo href contenga la cadena indicada al principio
+$('a[href(acentoCirc)="http://"]');
+
+# Todos los botones del div, cuya clase es primary
+$('#idElemento').find('button[class*="btn-primary"]');
+
+# 
+$('tbody').parents();
+var tabla = $('tbody').parents('table');
+
+var listaHijos = $('body').children();
+var hijo = $('tbody').children('.prueba');
+
+# Cambiar elemento HTML
+$('h2').attr('style', 'background-color:#ddd')
+
+# Editar estilos CSS
+$('h2').css({backgroundColor: '#ddd'});
+
+# Añade o borra clase
+$('h2').addClass("nombreClase");
+$('h2').removeClass("nombreClase");
+
+# Mostrar y ocultar
+$('h2').show();
+$('h2').hide();
+
+// EVENTOS //
+$("a").click(function(evento){
+    //código a ejecutar
+});
+
+// AJAX //
